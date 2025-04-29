@@ -24,6 +24,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Create a Windows 10 Virtual Machine.
+- Create a Linux Virtual Machine.
+- Install Wireshark. 
 - Observe IMCP traffic.
 - Observe SSH traffic
 - Observe DHCP traffic
@@ -287,98 +289,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-14. Type "dns" into the search bar   
+14. Type "dns" into the search bar to filter for dns traffic. You should see the screen below. Clear that traffic, and go into Powershell. Type in "nslookup disney.com" (we use disney as an example). When you do that, you should see this screen in Powershell, and you should see the traffic in Wireshark as shown below. When youre finished observing the dns traffic, you can go ahead and close out the virtual machine, and delete everything you made in azure.   
 </p>
 <p>
 
-![image](https://github.com/user-attachments/assets/48c2dd4e-6998-462e-92ac-6439f0c61620)
+![image](https://github.com/user-attachments/assets/48c2dd4e-6998-462e-92ac-6439f0c61620) ![Screenshot 2025-04-29 105430](https://github.com/user-attachments/assets/f3af8f4b-e5ae-489a-a86b-ac11ed8a9714) ![Screenshot 2025-04-29 105449](https://github.com/user-attachments/assets/b0060892-a538-4990-a501-03b498c1cacc)
 
-
-
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-<p>
-9. In the search bar at the top of the screen, type in "IMCP". Then, go back to azure on your personal desktop and get the Private IP address for the Ubuntu Server and attempt to ping it using powershell. To get to powershell, Click the start button on the VM and type in "Powershell". 
-</p>
-<p>
-
- ![image](https://github.com/user-attachments/assets/eb4c9ba2-2d3e-4571-bc57-01a677f6bea5) ![image](https://github.com/user-attachments/assets/9cda524e-ee72-49c6-8235-d76d9ff7b305) ![image](https://github.com/user-attachments/assets/12de8e62-1999-49d9-94a4-a7aa2a34ca00)
-
-
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-<p>
-9. In the search bar at the top of the screen, type in "IMCP". Then, go back to azure on your personal desktop and get the Private IP address for the Ubuntu Server and attempt to ping it using powershell. To get to powershell, Click the start button on the VM and type in "Powershell". 
-</p>
-<p>
-
- ![image](https://github.com/user-attachments/assets/eb4c9ba2-2d3e-4571-bc57-01a677f6bea5) ![image](https://github.com/user-attachments/assets/9cda524e-ee72-49c6-8235-d76d9ff7b305) ![image](https://github.com/user-attachments/assets/12de8e62-1999-49d9-94a4-a7aa2a34ca00)
-
-
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-
-
-
-</p>
-<br />
-
-<p>
-9. In the search bar at the top of the screen, type in "IMCP". Then, go back to azure on your personal desktop and get the Private IP address for the Ubuntu Server and attempt to ping it using powershell. To get to powershell, Click the start button on the VM and type in "Powershell". 
-</p>
-<p>
-
- ![image](https://github.com/user-attachments/assets/eb4c9ba2-2d3e-4571-bc57-01a677f6bea5) ![image](https://github.com/user-attachments/assets/9cda524e-ee72-49c6-8235-d76d9ff7b305) ![image](https://github.com/user-attachments/assets/12de8e62-1999-49d9-94a4-a7aa2a34ca00)
-
-
-
-
-
-
-</p>
-<br />
